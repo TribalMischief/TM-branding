@@ -597,7 +597,7 @@
 
   .voice-list li::before { flex-shrink: 0; margin-top: 2px; }
   .voice-col:first-child .voice-list li::before { content: '✦'; color: var(--gold); font-size: 8px; }
-  .voice-col:last-child  .voice-list li::before { content: '✕'; color: #ccc; font-size: 9px; }
+  .voice-col:last-child  .voice-list li::before { content: '✕'; color: #b08080; font-size: 9px; }
 
   /* ═══════════════════════════════════════
      CANVA REFERENCE TABLE
@@ -907,69 +907,77 @@
        CHAPTER 2 · COLOR
   ───────────────────────────────────────────── -->
   <div class="slide layout-palette" data-chapter="Color Palette" data-title="Primary Colors">
-    <div style="padding:28px 56px 20px;background:var(--black);flex-shrink:0;">
+    <div style="padding:28px 56px 20px;flex-shrink:0;border-bottom:1px solid var(--warm-grey);">
       <div class="eyebrow">Color Palette · 02</div>
       <div class="slide-title sm">Primary palette — four essential colors.</div>
     </div>
     <div class="palette-row">
-      <div class="swatch-block" style="border-right:1px solid #1e1e1e;">
-        <div class="swatch-color" style="background:#111111;border-top:3px solid #222;"></div>
+      <div class="swatch-block" style="border-right:1px solid var(--warm-grey);">
+        <div class="swatch-color" style="background:#111111;"></div>
         <div class="swatch-info">
-          <div class="swatch-name">Black</div>
+          <div class="swatch-name">Near Black</div>
           <span class="swatch-hex">#111111</span>
           <div class="swatch-role">Primary background · Dominant surface</div>
         </div>
       </div>
-      <div class="swatch-block" style="border-right:1px solid #1e1e1e;">
+      <div class="swatch-block" style="border-right:1px solid var(--warm-grey);">
         <div class="swatch-color" style="background:#C8A96E;"></div>
         <div class="swatch-info">
           <div class="swatch-name">Gold</div>
           <span class="swatch-hex">#C8A96E</span>
-          <div class="swatch-role">Brand accent · Labels · Highlights</div>
+          <div class="swatch-role">Primary accent · Labels · Highlights</div>
         </div>
       </div>
-      <div class="swatch-block" style="border-right:1px solid #1e1e1e;">
-        <div class="swatch-color" style="background:#F8F6F2;"></div>
-        <div class="swatch-info" style="background:#0d0d0d;">
-          <div class="swatch-name">Cream</div>
-          <span class="swatch-hex">#F8F6F2</span>
-          <div class="swatch-role">Page background · Light surface</div>
+      <div class="swatch-block" style="border-right:1px solid var(--warm-grey);">
+        <div class="swatch-color" style="background:#2A4A5E;"></div>
+        <div class="swatch-info">
+          <div class="swatch-name">Coastal Teal</div>
+          <span class="swatch-hex">#2A4A5E</span>
+          <div class="swatch-role">Secondary accent — new</div>
         </div>
       </div>
       <div class="swatch-block">
-        <div class="swatch-color" style="background:#1F1F1F;"></div>
+        <div class="swatch-color" style="background:#F8F6F2;border:1px solid var(--warm-grey);"></div>
         <div class="swatch-info">
-          <div class="swatch-name">Text</div>
-          <span class="swatch-hex">#1F1F1F</span>
-          <div class="swatch-role">Body copy on light backgrounds</div>
+          <div class="swatch-name">Cream</div>
+          <span class="swatch-hex">#F8F6F2</span>
+          <div class="swatch-role">Light mode base · Page background</div>
         </div>
       </div>
     </div>
   </div>
 
   <div class="slide layout-palette" data-chapter="Color Palette" data-title="Secondary Colors">
-    <div style="padding:28px 56px 20px;background:var(--black);flex-shrink:0;">
+    <div style="padding:28px 56px 20px;flex-shrink:0;border-bottom:1px solid var(--warm-grey);">
       <div class="eyebrow">Color Palette · Secondary</div>
       <div class="slide-title sm">Supporting tones — structure and hierarchy.</div>
     </div>
     <div class="palette-row">
-      <div class="swatch-block" style="border-right:1px solid #1e1e1e;">
+      <div class="swatch-block" style="border-right:1px solid var(--warm-grey);">
+        <div class="swatch-color" style="background:#D4E4ED;"></div>
+        <div class="swatch-info">
+          <div class="swatch-name">Teal Light</div>
+          <span class="swatch-hex">#D4E4ED</span>
+          <div class="swatch-role">Teal on light backgrounds</div>
+        </div>
+      </div>
+      <div class="swatch-block" style="border-right:1px solid var(--warm-grey);">
         <div class="swatch-color" style="background:#F5EDD8;"></div>
-        <div class="swatch-info" style="background:#0d0d0d;">
+        <div class="swatch-info">
           <div class="swatch-name">Gold Light</div>
           <span class="swatch-hex">#F5EDD8</span>
           <div class="swatch-role">Tinted fills · Callout backgrounds</div>
         </div>
       </div>
-      <div class="swatch-block" style="border-right:1px solid #1e1e1e;">
+      <div class="swatch-block" style="border-right:1px solid var(--warm-grey);">
         <div class="swatch-color" style="background:#E8E4DE;"></div>
-        <div class="swatch-info" style="background:#0d0d0d;">
+        <div class="swatch-info">
           <div class="swatch-name">Warm Grey</div>
           <span class="swatch-hex">#E8E4DE</span>
           <div class="swatch-role">Borders · Dividers · Subtle fills</div>
         </div>
       </div>
-      <div class="swatch-block" style="border-right:1px solid #1e1e1e;">
+      <div class="swatch-block" style="border-right:1px solid var(--warm-grey);">
         <div class="swatch-color" style="background:#6A6A64;"></div>
         <div class="swatch-info">
           <div class="swatch-name">Mid Grey</div>
@@ -978,11 +986,11 @@
         </div>
       </div>
       <div class="swatch-block">
-        <div class="swatch-color" style="background:#FFFFFF;border-top:1px solid #2a2a2a;"></div>
+        <div class="swatch-color" style="background:#1F1F1F;"></div>
         <div class="swatch-info">
-          <div class="swatch-name">White</div>
-          <span class="swatch-hex">#FFFFFF</span>
-          <div class="swatch-role">Text on dark · Card surfaces</div>
+          <div class="swatch-name">Text</div>
+          <span class="swatch-hex">#1F1F1F</span>
+          <div class="swatch-role">Body copy on light backgrounds</div>
         </div>
       </div>
     </div>
@@ -1020,12 +1028,12 @@
         </ul>
       </div>
       <div class="usage-cell">
-        <h4>Gold — Never</h4>
+        <h4>Coastal Teal — Use For</h4>
         <ul class="usage-list">
-          <li><span class="dot" style="background:#333;"></span>Large blocks of body copy</li>
-          <li><span class="dot" style="background:#333;"></span>Background fills behind text</li>
-          <li><span class="dot" style="background:#333;"></span>More than 20% of any layout</li>
-          <li><span class="dot" style="background:#333;"></span>Combined with bright colours</li>
+          <li><span class="dot" style="background:#2A4A5E;"></span>Links &amp; interactive elements</li>
+          <li><span class="dot" style="background:#2A4A5E;"></span>Secondary CTAs &amp; buttons</li>
+          <li><span class="dot" style="background:#D4E4ED;"></span>Callout panel backgrounds</li>
+          <li><span class="dot" style="background:#2A4A5E;"></span>Accent borders on teal blocks</li>
         </ul>
       </div>
     </div>
@@ -1038,13 +1046,13 @@
     <div class="eyebrow">Typography · 03</div>
     <div style="display:flex;flex-direction:column;gap:32px;margin-top:16px;">
       <div>
-        <div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(40px,6vw,72px);font-weight:300;color:var(--white);letter-spacing:-0.02em;line-height:1.0;">Georgia — <em style="color:var(--gold);">Refined.</em></div>
-        <div style="font-family:'DM Sans',sans-serif;font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:#333;margin-top:12px;">Display · Headings · Quotes · Brand name</div>
+        <div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(40px,6vw,72px);font-weight:300;color:var(--text);letter-spacing:-0.02em;line-height:1.0;">Georgia — <em style="color:var(--gold);">Refined.</em></div>
+        <div style="font-family:'DM Sans',sans-serif;font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:var(--mid-grey);margin-top:12px;">Display · Headings · Quotes · Brand name</div>
       </div>
-      <div style="width:48px;height:1px;background:#222;"></div>
+      <div style="width:48px;height:1px;background:var(--gold);"></div>
       <div>
-        <div style="font-family:'DM Sans','Helvetica Neue',Arial,sans-serif;font-size:clamp(24px,3vw,36px);font-weight:300;color:#666;letter-spacing:0.04em;">DM Sans — Precision.</div>
-        <div style="font-family:'DM Sans',sans-serif;font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:#333;margin-top:12px;">UI · Labels · Body · Buttons · Metadata</div>
+        <div style="font-family:'DM Sans','Helvetica Neue',Arial,sans-serif;font-size:clamp(24px,3vw,36px);font-weight:300;color:var(--mid-grey);letter-spacing:0.04em;">DM Sans — Precision.</div>
+        <div style="font-family:'DM Sans',sans-serif;font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:var(--mid-grey);margin-top:12px;">UI · Labels · Body · Buttons · Metadata</div>
       </div>
     </div>
   </div>
@@ -1055,12 +1063,12 @@
     <div class="type-specimen-block">
       <div class="type-row">
         <div class="type-row-label">Hero / Cover</div>
-        <div class="type-row-preview"><span style="font-family:'Cormorant Garamond',Georgia,serif;font-size:36px;font-weight:300;color:var(--white);letter-spacing:-0.02em;">Digital Presence</span></div>
+        <div class="type-row-preview"><span style="font-family:'Cormorant Garamond',Georgia,serif;font-size:36px;font-weight:300;color:var(--text);letter-spacing:-0.02em;">Digital Presence</span></div>
         <div class="type-row-spec">Georgia / 36px / 300</div>
       </div>
       <div class="type-row">
         <div class="type-row-label">Section Heading</div>
-        <div class="type-row-preview"><span style="font-family:'Cormorant Garamond',Georgia,serif;font-size:26px;font-weight:400;color:var(--white);">How We Price This</span></div>
+        <div class="type-row-preview"><span style="font-family:'Cormorant Garamond',Georgia,serif;font-size:26px;font-weight:400;color:var(--text);">How We Price This</span></div>
         <div class="type-row-spec">Georgia / 26px / 400</div>
       </div>
       <div class="type-row">
@@ -1220,11 +1228,11 @@
     </div>
     <div class="gold-rule" style="margin-top:36px;"></div>
     <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:8px;">
-      <span style="font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:16px;color:#555;padding:8px 20px;border:1px solid #1e1e1e;">Human, not corporate</span>
-      <span style="font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:16px;color:#555;padding:8px 20px;border:1px solid #1e1e1e;">Curious</span>
-      <span style="font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:16px;color:#555;padding:8px 20px;border:1px solid #1e1e1e;">Rooted in Newburyport</span>
-      <span style="font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:16px;color:#555;padding:8px 20px;border:1px solid #1e1e1e;">Craft-forward</span>
-      <span style="font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:16px;color:var(--gold);padding:8px 20px;border:1px solid #2a2a2a;">A little mischievous</span>
+      <span style="font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:16px;color:var(--mid-grey);padding:8px 20px;border:1px solid var(--warm-grey);">Human, not corporate</span>
+      <span style="font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:16px;color:var(--mid-grey);padding:8px 20px;border:1px solid var(--warm-grey);">Curious</span>
+      <span style="font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:16px;color:var(--mid-grey);padding:8px 20px;border:1px solid var(--warm-grey);">Rooted in Newburyport</span>
+      <span style="font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:16px;color:var(--mid-grey);padding:8px 20px;border:1px solid var(--warm-grey);">Craft-forward</span>
+      <span style="font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:16px;color:var(--gold);padding:8px 20px;border:1px solid var(--gold);">A little mischievous</span>
     </div>
   </div>
 
@@ -1293,10 +1301,10 @@
       The Tribal Mischief identity uses a geometric circle mark and a full mandala logomark — each available in white (for dark backgrounds) and dark (for light backgrounds). Never use white on light or dark on dark.
     </div>
     <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:32px;">
-      <span style="font-family:'DM Sans',sans-serif;font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);padding:8px 16px;border:1px solid #2a2a2a;">Circle Mark</span>
-      <span style="font-family:'DM Sans',sans-serif;font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:#444;padding:8px 16px;border:1px solid #1e1e1e;">Mandala Logomark</span>
-      <span style="font-family:'DM Sans',sans-serif;font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:#444;padding:8px 16px;border:1px solid #1e1e1e;">White on Dark</span>
-      <span style="font-family:'DM Sans',sans-serif;font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:#444;padding:8px 16px;border:1px solid #1e1e1e;">Dark on Light</span>
+      <span style="font-family:'DM Sans',sans-serif;font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);padding:8px 16px;border:1px solid var(--gold);">Circle Mark</span>
+      <span style="font-family:'DM Sans',sans-serif;font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:var(--mid-grey);padding:8px 16px;border:1px solid var(--warm-grey);">Mandala Logomark</span>
+      <span style="font-family:'DM Sans',sans-serif;font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:var(--mid-grey);padding:8px 16px;border:1px solid var(--warm-grey);">White on Dark</span>
+      <span style="font-family:'DM Sans',sans-serif;font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:var(--mid-grey);padding:8px 16px;border:1px solid var(--warm-grey);">Dark on Light</span>
     </div>
   </div>
 
@@ -1305,7 +1313,7 @@
        style="background:var(--black);flex-direction:column;overflow:hidden;">
     <div style="padding:22px 56px 16px;flex-shrink:0;border-bottom:1px solid #1e1e1e;">
       <div class="eyebrow">Circle Mark — Primary Icon</div>
-      <div class="slide-title sm">Favicon, avatar, badge, and standalone icon.</div>
+      <div class="slide-title sm" style="color:var(--white);">Favicon, avatar, badge, and standalone icon.</div>
     </div>
     <div style="display:flex;flex:1;min-height:0;">
       <div style="flex:1;display:flex;flex-direction:column;border-right:1px solid #1e1e1e;">
@@ -1334,7 +1342,7 @@
        style="background:var(--black);flex-direction:column;overflow:hidden;">
     <div style="padding:22px 56px 16px;flex-shrink:0;border-bottom:1px solid #1e1e1e;">
       <div class="eyebrow">Mandala Logomark — Full Identity</div>
-      <div class="slide-title sm">Brand collateral, proposals, print, and hero use.</div>
+      <div class="slide-title sm" style="color:var(--white);">Brand collateral, proposals, print, and hero use.</div>
     </div>
     <div style="display:flex;flex:1;min-height:0;">
       <div style="flex:1;display:flex;flex-direction:column;border-right:1px solid #1e1e1e;">
@@ -1374,9 +1382,9 @@
           Circle mark at small sizes (16px+), mandala at 48px+
         </div>
       </div>
-      <div class="card" style="border-left:3px solid #222;">
-        <div class="card-num" style="color:#2a2a2a;">✕ Never</div>
-        <div class="card-title" style="font-size:18px;color:#444;margin-bottom:16px;">Not This</div>
+      <div class="card" style="border-left:3px solid #c0786a;">
+        <div class="card-num" style="color:#c0786a;">✕ Never</div>
+        <div class="card-title" style="font-size:18px;color:var(--text);margin-bottom:16px;">Not This</div>
         <div class="card-body" style="line-height:2;">
           White mark on Cream, Gold Light, or any pale bg<br>
           Dark mark on Black, Text, or any dark surface<br>
@@ -1404,14 +1412,16 @@
         </tr>
       </thead>
       <tbody>
-        <tr><td>Color 1</td><td><code>#111111</code></td><td style="color:#888;">Black</td><td style="color:#555;">Primary background · Dominant surface</td></tr>
-        <tr><td>Color 2</td><td><code>#C8A96E</code></td><td style="color:#888;">Gold</td><td style="color:#555;">Brand accent · Labels · Highlights</td></tr>
-        <tr><td>Color 3</td><td><code>#F8F6F2</code></td><td style="color:#888;">Cream</td><td style="color:#555;">Page background · Light surface</td></tr>
-        <tr><td>Color 4</td><td><code>#1F1F1F</code></td><td style="color:#888;">Text</td><td style="color:#555;">Body copy on light backgrounds</td></tr>
-        <tr><td>Color 5</td><td><code>#E8E4DE</code></td><td style="color:#888;">Warm Grey</td><td style="color:#555;">Borders · Dividers</td></tr>
-        <tr><td>Color 6</td><td><code>#6A6A64</code></td><td style="color:#888;">Mid Grey</td><td style="color:#555;">Secondary text · Metadata</td></tr>
-        <tr><td>Color 7</td><td><code>#F5EDD8</code></td><td style="color:#888;">Gold Light</td><td style="color:#555;">Tinted fills · Callout backgrounds</td></tr>
-        <tr><td>Color 8</td><td><code>#FFFFFF</code></td><td style="color:#888;">White</td><td style="color:#555;">Text on dark · Card surfaces</td></tr>
+        <tr><td>Color 1</td><td><code>#111111</code></td><td style="color:#888;">Near Black</td><td style="color:#555;">Primary background · Dominant surface</td></tr>
+        <tr><td>Color 2</td><td><code>#C8A96E</code></td><td style="color:#888;">Gold</td><td style="color:#555;">Primary accent · Labels · Highlights</td></tr>
+        <tr><td>Color 3</td><td><code>#2A4A5E</code></td><td style="color:#2A4A5E;">Coastal Teal</td><td style="color:#555;">Secondary accent · Links · Emphasis</td></tr>
+        <tr><td>Color 4</td><td><code>#D4E4ED</code></td><td style="color:#2A4A5E;">Teal Light</td><td style="color:#555;">Teal tint · Callout backgrounds</td></tr>
+        <tr><td>Color 5</td><td><code>#F8F6F2</code></td><td style="color:#888;">Cream</td><td style="color:#555;">Page background · Light surface</td></tr>
+        <tr><td>Color 6</td><td><code>#1F1F1F</code></td><td style="color:#888;">Text</td><td style="color:#555;">Body copy on light backgrounds</td></tr>
+        <tr><td>Color 7</td><td><code>#E8E4DE</code></td><td style="color:#888;">Warm Grey</td><td style="color:#555;">Borders · Dividers</td></tr>
+        <tr><td>Color 8</td><td><code>#6A6A64</code></td><td style="color:#888;">Mid Grey</td><td style="color:#555;">Secondary text · Metadata</td></tr>
+        <tr><td>Color 9</td><td><code>#F5EDD8</code></td><td style="color:#888;">Gold Light</td><td style="color:#555;">Tinted fills · Callout backgrounds</td></tr>
+        <tr><td>Color 10</td><td><code>#FFFFFF</code></td><td style="color:#888;">White</td><td style="color:#555;">Text on dark · Card surfaces</td></tr>
       </tbody>
     </table>
   </div>
@@ -1437,7 +1447,7 @@
         <tr><td>Letter Spacing — Headings</td><td><code>–10 to –20</code></td><td style="color:#555;">Canva units · tight editorial feel</td></tr>
         <tr><td>Page Margin</td><td><code>72px L/R · 56px T/B</code></td><td style="color:#555;">Never use below 20px</td></tr>
         <tr><td>Accent Rule</td><td><code>3px solid #C8A96E</code></td><td style="color:#555;">Top border on callout blocks only</td></tr>
-        <tr><td>Never Use</td><td><code style="color:#666;background:#111;">Inter · Roboto · Montserrat</code></td><td style="color:#555;">Generic — off-brand</td></tr>
+        <tr><td>Never Use</td><td><code style="color:#c0786a;background:#fff8f8;border:1px solid #f0d0d0;">Inter · Roboto · Montserrat</code></td><td style="color:#555;">Generic — off-brand</td></tr>
       </tbody>
     </table>
   </div>
